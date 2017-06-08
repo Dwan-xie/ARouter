@@ -28,7 +28,7 @@ new Handler(Looper.getMainLooper()).post(new Runnable() {
 ```
 **将**
 ```
-ActivityCompat.startActivity(currentContext, new Intent[]{intent}, postcard.getOptionsBundle());}
+ActivityCompat.startActivity(currentContext, intent, postcard.getOptionsBundle());}
 ```
 **替换为**
 ```
